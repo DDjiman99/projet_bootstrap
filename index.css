@@ -1,0 +1,300 @@
+*
+{
+    margin: 0px;
+    padding: 0x;
+}
+body
+{
+    font-family: verdana 'sans serif', 'Courier New', Courier, monospace ;
+}
+#menu ul
+{
+    display: flex;
+    justify-content: center; 
+}
+.navbar
+{
+    background-image: linear-gradient(to right,#a517ba,#561782);
+    padding: 0;
+}
+.head_title
+{  
+    font-size: 30px;
+    color: white;
+}
+.navbar-nav li a
+{
+    color: #fff !important;
+    font-weight: 600;
+    font-size: 20px;
+   
+}
+#banner
+{
+    background-image: linear-gradient(to right,#a517ba, #5f1782);
+    color: #fff;
+    padding-top: 5%;
+}
+#banner .container .row div p, #banner .container .row div a{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#banner .container .row div a{
+    padding-left: 0px;
+}
+.titre_promo
+{
+    font-size: 50px;
+    font-weight: 700;
+    margin-top: 100px;
+
+}
+.btn_jouer
+{
+   width: 45px;
+   margin-right: 20px;
+  
+}
+#banner .container .row div a
+{
+    display: block;
+    color: white;
+    text-decoration: none;
+    margin-top: 50px;
+}
+.img_bas
+{
+    width: 100%;
+}
+#services
+{
+    padding: 80px 0;
+}
+.img_service
+{
+    width: 100px;
+    margin-top: 20px;
+}
+.service h4
+{
+    padding: 5px;
+    margin-top: 25px;
+    text-transform: uppercase;
+}
+.titre
+{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.titre::before
+{
+    content: '';
+    background-color: #7b1798;
+    height: 5px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(70px);
+    margin-bottom: 20px;
+}
+
+#service .btn-primary
+{
+    background-image: linear-gradient(to right,#a517ba, #5f1782);
+    border-radius: 15px;
+    padding: 8px 25px;
+    border: none;
+    height: 60px;
+    font-size: 30px;
+}
+#a_propos
+{
+    background-color: #f8f9fa;
+    padding-bottom: 50px;
+    padding-bottom: 50px;
+}
+.titre_a_propos
+{
+ font-size: 40px;
+ font-weight: 600;
+ margin-top: 8px;   
+}
+#a_propos ul li
+{
+    margin: 10px 0;
+}
+#a_propos ul 
+{
+    margin-left: 20px;
+}
+#temoignage
+{
+    margin: 100px 0;
+}
+.temoignage
+{
+   border-left: 4px solid #7b1798; 
+   margin-top: 50px;
+   margin-bottom: 50px;
+}
+.temoignage img
+{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin: 0 10px;
+
+}
+b{
+    font-size: 40px;
+}
+.detail
+{
+    display: inline-block;
+
+}
+#meta
+{
+    background: #f8f9fa;
+    padding: 100px 0;
+}
+#meta p
+{
+   font-size: 40px;
+   font-weight: 600;
+   margin-bottom: 30px; 
+}
+.icons_meta img
+{
+    width: 60px;
+    transition: 0.5s;
+}
+.icons_meta a:hover img
+{
+    transform: translateY(-10px);
+}
+footer
+{
+    background-image: linear-gradient(to right,#a517ba, #5f1782);
+    color: #fff;
+}
+.img_footer
+{
+    width: 100%;
+}
+.footer_box
+{
+    padding: 20px;
+}
+.footer_box img
+{
+    width: 120px;
+    margin-bottom: 20px;
+}
+.footer_box .fa
+{
+   font-size: 25px;
+   height: 40px; 
+   width: 40px;
+   text-align: center;
+   padding-top: 7px;
+   border-radius: 2px;
+   background-image: linear-gradient(to right,#a517ba, #5f1782);
+}
+.footer_box.form-control
+{
+    box-shadow: none !important;
+    border: none;
+    border-radius: 0;
+    margin-top: 25px;
+    max-width: 250px;
+
+}
+.footer_box .btn-success, .btn-primary
+{
+    box-shadow: none !important;
+    border: none;
+    border-radius: 0;
+    background-image: linear-gradient(to right,#a517ba, #5f1782);
+
+}
+.footer_box .btn-success
+{
+    margin-top: 25px;
+}
+/* .btn-primary
+{
+    
+} */
+.top
+{
+    text-align: right;
+    margin-bottom: 20px;
+}
+.copyright
+{
+    margin-bottom: 0;
+    padding-bottom: 20px;
+    text-align: center;
+
+}
+ .category{
+    display: flex;
+    flex-direction: column;
+    
+ }
+ .category_1{
+    margin-top: 9px;
+    margin-left: 12px;
+    font-size: 22px;
+    color: white;
+ }
+ .cat1,.cat2
+ {
+    color: #561782;
+ }
+
+ #categorie h1{
+    text-align: center;
+    color: purple;
+    margin-top: 60px;
+    margin-bottom: 40px;
+ }
+ .box{
+    width: 600px;
+    height: 350px;
+    margin: 15px;
+    border: 15px solid #fff;
+    box-shadow:20px 15px 15px rgba(0,0,0.5) ;
+ }
+ .box .img{
+    width: 100%;
+    height: 200px;
+    position: relative;
+    margin-bottom: 40px;
+ }
+ .box .img img{
+    width: 100%;
+    height:200px;
+    position: relative;
+    object-fit: cover;
+ }
+ .box .prix{
+    color: #111;
+    font-weight: 400;
+    font-size: 30px;
+    text-align: center;
+    
+ }
+ .box .prix span{
+    background-color: #a517ba;
+    width: 150px;
+    height: 60px;
+    border-radius: 10px;
+    margin-left: 5px;
+    color: white;
+    padding: 5px;
+    
+ }
+ 
